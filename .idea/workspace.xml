@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb006869-431e-4773-b23e-0bcc662be17e" name="Changes" comment="Initial">
+    <list default="true" id="eb006869-431e-4773-b23e-0bcc662be17e" name="Changes" comment="Additions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw6/DayOfWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw6/Family.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw6/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw6/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw6/Species.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hw5/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw5/Family.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw5/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -39,11 +45,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/azari/IdeaProjects/az-be5/src/main/java/lesson6/Pizza.java"
+    "last_opened_file_path": "C:/Users/azari/IdeaProjects/HappyFamily/src/main/java/hw6"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main\java\hw6" />
+      <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main\java" />
       <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main\java\hw5" />
     </key>
   </component>
@@ -97,7 +105,7 @@
       <workItem from="1667378756345" duration="9690000" />
       <workItem from="1667394553238" duration="1480000" />
       <workItem from="1667401332234" duration="3956000" />
-      <workItem from="1667489305948" duration="1682000" />
+      <workItem from="1667489305948" duration="2798000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1667333466584</created>
@@ -113,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667333685722</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Additions">
+      <created>1667492253300</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667492253300</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +147,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="Additions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Additions" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package hw5;
+package hw6;
 
 import java.util.Arrays;
 
@@ -47,7 +47,7 @@ public class Family {
         this.father = father;
         this.children = new Human[0];
     }
-    public Family(Human mother, Human father,Pet pet) {
+    public Family(Human mother, Human father, Pet pet) {
         this.mother = mother;
         this.father = father;
         this.pet=pet;
