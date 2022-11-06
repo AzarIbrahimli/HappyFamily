@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb006869-431e-4773-b23e-0bcc662be17e" name="Changes" comment="Additions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw6/DayOfWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw6/Family.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw6/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw6/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw6/Species.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw6/Tester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw5/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw5/Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw6/DayOfWeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw6/DayOfWeek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw6/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw6/Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw6/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw6/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw6/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/azari/IdeaProjects/HappyFamily/src/main/java/hw6"
+    "last_opened_file_path": "C:/Users/azari/IdeaProjects/az-be5/src/main/java/lesson30a2/IntToBin.java"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -55,37 +54,93 @@
       <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main\java\hw5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.hw5.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw4.Main" />
+  <component name="RunManager" selected="JUnit.Tester">
+    <configuration name="Tester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HappyFamily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw4.*" />
+          <option name="PATTERN" value="hw6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="hw6" />
+      <option name="MAIN_CLASS_NAME" value="hw6.Tester" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hw5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw5.Main" />
+    <configuration name="Tester.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HappyFamily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw5.*" />
+          <option name="PATTERN" value="hw6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="hw6" />
+      <option name="MAIN_CLASS_NAME" value="hw6.Tester" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tester.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HappyFamily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw6" />
+      <option name="MAIN_CLASS_NAME" value="hw6.Tester" />
+      <option name="METHOD_NAME" value="testCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tester.testDeleteByHuman" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HappyFamily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw6" />
+      <option name="MAIN_CLASS_NAME" value="hw6.Tester" />
+      <option name="METHOD_NAME" value="testDeleteByHuman" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tester.testDeleteByIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HappyFamily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw6" />
+      <option name="MAIN_CLASS_NAME" value="hw6.Tester" />
+      <option name="METHOD_NAME" value="testDeleteByIndex" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.hw5.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Tester" />
+        <item itemvalue="JUnit.Tester.testCount" />
+        <item itemvalue="JUnit.Tester.testDeleteByHuman" />
+        <item itemvalue="JUnit.Tester.testAdd" />
+        <item itemvalue="JUnit.Tester.testDeleteByIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +160,11 @@
       <workItem from="1667378756345" duration="9690000" />
       <workItem from="1667394553238" duration="1480000" />
       <workItem from="1667401332234" duration="3956000" />
-      <workItem from="1667489305948" duration="2798000" />
+      <workItem from="1667489305948" duration="3146000" />
+      <workItem from="1667493926638" duration="2133000" />
+      <workItem from="1667560071071" duration="8755000" />
+      <workItem from="1667719476485" duration="1009000" />
+      <workItem from="1667730520716" duration="10404000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1667333466584</created>
@@ -128,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667492253300</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Additions">
+      <created>1667493533202</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667493533202</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

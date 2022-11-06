@@ -8,7 +8,11 @@ public enum DayOfWeek {
     FRIDAY,
     SATURDAY,
     SUNDAY
-
+//public enum name(String week){
+//        switch(week){
+//        case "Monday":
+//    }
+//}
 }
 
 

@@ -44,29 +44,6 @@ public class Human {
         this.iq = iq;
     }
 
-//    public Pet getPet() {
-//        return pet;
-//    }
-//
-//    public void setPet(Pet pet) {
-//        this.pet = pet;
-//    }
-//
-//    public Human getMother() {
-//        return mother;
-//    }
-//
-//    public void setMother(Human mother) {
-//        this.mother = mother;
-//    }
-//
-//    public Human getFather() {
-//        return father;
-//    }
-//
-//    public void setFather(Human father) {
-//        this.father = father;
-//    }
 
     public String[][] getSchedule() {
         return schedule;
@@ -187,5 +164,16 @@ public class Human {
 //            return "";
 //        }
 
+    }
+
+    @Override
+    public boolean equals(Object given) {
+        if (given == null) return false;
+        if (given==this) return true;
+        if(!(given instanceof Human)) return false;
+        Human that = (Human) given;
+        return getName().equals(that.getName()) &&
+                getSurname().equals(that.getSurname()) &&
+                getDateOfBirth()==that.getDateOfBirth();
     }
 }
