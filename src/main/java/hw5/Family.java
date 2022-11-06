@@ -66,25 +66,33 @@ public class Family {
     }
 
     public boolean deleteChild(int index){
-        if(children.length>index){
-            boolean delete = false;
-            Human ch[] = new Human[children.length-1];
-            for(int i=0;i<children.length;i++){
-                if(i==index){ i++;
-                    delete = true;}
-                if(delete==false){
-                    ch[i]=children[i];
-                }
-                else{
-                    ch[i-1]=children[i];
+        boolean enter = false;
+        boolean result = false;
+        if (index < children.length) {
+            Human ch[] = new Human[children.length - 1];
+            for (int i = 0; i < ch.length; i++) {
+                if (i != index && enter == false) {
+                    ch[i] = children[i];
+                } else {
+                    ch[i] = children[i + 1];
+                    enter = true;
                 }
             }
             children = ch;
-            return true;
-        }
-        else return false;
+            result = true;
+        } return result;
     }
 
+    public boolean deleteChild(Human child) {
+        boolean result = false;
+        for (int i = 0; i < children.length; i++) {
+            if (child.equals(children[i])) {
+                deleteChild(i);
+                result = true;
+            }
+        }
+        return result;
+    }
     public int countFamily(){
         return children.length+2;
     }
@@ -105,10 +113,10 @@ public class Family {
     public boolean equals(Object given) {
         if (given == null) return false;
         if (given==this) return true;
-        if(!(given instanceof Family)) return false;
+        if(!(given instanceof hw6.Human)) return false;
         Family that = (Family) given;
-        return mother.equals(that.mother)
-                && father.equals(that.father);
+        return mother.getName().equals(that.mother.getName())
+                && father.getName().equals(that.father.getName());
     }
 }
 
