@@ -1,7 +1,6 @@
-package hw8.model;
+package hw9.model;
 
 import java.util.Map;
-import java.util.Random;
 
 public class Human {
     private String name;

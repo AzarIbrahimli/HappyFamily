@@ -21,6 +21,7 @@ public class Main {
         mypets.add(mypet);
         mypets.add(myfish);
 
+//        man.greetPet();
 
 
 
