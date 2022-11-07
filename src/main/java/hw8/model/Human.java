@@ -56,7 +56,8 @@ public class Human {
 
 
 //    public void greetPet(){
-//        System.out.println("Hello, " + family.getPet().getNickname());
+//        for(Pet pet: family.getPet())
+//        System.out.println("Hello, " + pet);
 //    }
 
 //    public void describePet() {
