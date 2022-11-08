@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb006869-431e-4773-b23e-0bcc662be17e" name="Changes" comment="Initial">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw9/FamilyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw9/test/TestFamilyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw9/FamilyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw9/FamilyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw9/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw9/gender/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw9/gender/Man.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw9/gender/Woman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw9/gender/Woman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw9/model/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw9/model/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw9/test/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw9/test/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw9/test/testCollectionFamilyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw9/test/testCollectionFamilyDao.java" afterDir="false" />
-    </list>
+    <list default="true" id="eb006869-431e-4773-b23e-0bcc662be17e" name="Changes" comment="Almost finished" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,15 +31,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/azari/IdeaProjects/HappyFamily/src/main/java/hw9&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/azari/IdeaProjects/Homeworks/src/main/java/homework9"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main\java\hw9" />
@@ -167,7 +156,7 @@
       <workItem from="1667719476485" duration="1009000" />
       <workItem from="1667730520716" duration="20431000" />
       <workItem from="1667845240486" duration="6128000" />
-      <workItem from="1667893614696" duration="10945000" />
+      <workItem from="1667893614696" duration="11301000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1667333466584</created>
@@ -239,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667851277974</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Almost finished">
+      <created>1667904669329</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667904669329</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,10 +253,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Almost finished" />
     <MESSAGE value="Additions" />
     <MESSAGE value="Begining" />
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="Almost finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost finished" />
   </component>
 </project>
