@@ -2,7 +2,7 @@ package hw9.model;
 
 import java.util.Map;
 
-public class Human {
+public abstract class Human {
     private String name;
     private String surname;
     private int dateOfBirth;
@@ -86,6 +86,10 @@ public class Human {
 //        return a;
 //    }
 
+    public Human(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
+    }
     public Human(String name, String surname, int dateOfBirth) {
         this.name = name;
         this.surname = surname;
@@ -138,11 +142,17 @@ public class Human {
             return "Human{" +
                     "name='" + name + '\'' +
                     ", surname='" + surname + '\'' +
-                    ", dateOfBirth=" + dateOfBirth +
-                    ", iq=" + iq +
-                    ", schedule=" + schedule +
                     '}';
         }
+//        else {
+//            return "Human{" +
+//                    "name='" + name + '\'' +
+//                    ", surname='" + surname + '\'' +
+//                    ", dateOfBirth=" + dateOfBirth +
+//                    ", iq=" + iq +
+//                    ", schedule=" + schedule +
+//                    '}';
+//        }
 //        else if(secondtContructor == true){
 //            return "Human{" +
 //                    "name='" + name + '\'' +

@@ -5,6 +5,9 @@ import hw9.model.Human;
 import java.util.Map;
 
 public final class Man extends Human {
+    public Man(String name, String surname) {
+        super(name, surname);
+    }
     public Man(String name, String surname, int dateOfBirth) {
         super(name, surname, dateOfBirth);
     }
