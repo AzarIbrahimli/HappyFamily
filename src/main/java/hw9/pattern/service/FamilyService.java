@@ -1,9 +1,10 @@
-package hw9;
+package hw9.pattern.service;
 
 import hw9.gender.Man;
 import hw9.model.Family;
 import hw9.model.Human;
 import hw9.model.Pet;
+import hw9.pattern.dao.FamilyDao;
 
 import java.util.ArrayList;
 import java.util.List;

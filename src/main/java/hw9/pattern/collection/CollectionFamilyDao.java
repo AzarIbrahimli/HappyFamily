@@ -1,6 +1,7 @@
-package hw9;
+package hw9.pattern.collection;
 
 import hw9.model.Family;
+import hw9.pattern.dao.FamilyDao;
 
 import java.util.ArrayList;
 import java.util.List;

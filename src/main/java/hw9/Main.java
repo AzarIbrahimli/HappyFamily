@@ -8,9 +8,11 @@ import hw9.gender.Woman;
 import hw9.model.Family;
 import hw9.model.Human;
 import hw9.model.Pet;
+import hw9.pattern.collection.CollectionFamilyDao;
+import hw9.pattern.controller.FamilyController;
+import hw9.pattern.service.FamilyService;
 
 import java.util.HashSet;
-import java.util.Random;
 import java.util.Set;
 
 public class Main {

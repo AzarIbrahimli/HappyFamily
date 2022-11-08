@@ -1,4 +1,4 @@
-package hw9;
+package hw9.pattern.dao;
 
 import hw9.model.Family;
 

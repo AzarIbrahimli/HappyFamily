@@ -1,5 +1,6 @@
-package hw9;
+package hw9.pattern.controller;
 
+import hw9.pattern.service.FamilyService;
 import hw9.model.Family;
 import hw9.model.Human;
 import hw9.model.Pet;
