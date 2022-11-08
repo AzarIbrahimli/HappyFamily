@@ -50,17 +50,11 @@ public class FamilyController {
     }
 
     public String deleteAllChildrenOlderThan(int age){
-        for(int i = 0; i<getAllFamilies().size();i++){
-            for(int j = 0; i<getAllFamilies().get(i).getChildren().size();j++){
-                if(age > getAllFamilies().get(i).getChildren().get(j).getDateOfBirth()){
-                    deleteAllChildrenOlderThan(age);
-                }
-            }
-        }return "Deleted";
-    }       /** Not finished */
+        return familyService.deleteAllChildrenOlderThan(age);
+    }
 
 
-    public String count(){
+    public int count(){
         return familyService.count();
     }
 

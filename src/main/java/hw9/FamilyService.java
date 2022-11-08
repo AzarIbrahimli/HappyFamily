@@ -1,7 +1,5 @@
 package hw9;
 
-
-import hw7.gender.Woman;
 import hw9.gender.Man;
 import hw9.model.Family;
 import hw9.model.Human;
@@ -76,11 +74,11 @@ public class FamilyService {
         Random rand = new Random();
         int gender = rand.nextInt(0,2);
         if(gender == 0){
-            Human child = new Man(masculine,family.getFather().getSurname(),0);
+            Human child = new Man(masculine,family.getFather().getSurname(),2022);
             family.addChild(child);
         }
         if(gender == 1){
-            Human child = new Man(feminine,family.getFather().getSurname(),0);
+            Human child = new Man(feminine,family.getFather().getSurname(),2022);
             family.addChild(child);
         }
         return family;
@@ -92,18 +90,19 @@ public class FamilyService {
     }
 
     public String deleteAllChildrenOlderThan(int age){
-        for(int i = 0; i<getAllFamilies().size();i++){
-            for(int j = 0; i<getAllFamilies().get(i).getChildren().size();j++){
-                if(age > getAllFamilies().get(i).getChildren().get(j).getDateOfBirth()){
-                    deleteAllChildrenOlderThan(age);
+        for (int i = 0; i < getAllFamilies().size(); i++){
+            for(int j = 0; j < getAllFamilies().get(i).getChildren().size(); j++){
+                if(age< getAllFamilies().get(i).getChildren().get(j).getAge()){
+                    getAllFamilies().get(i).getChildren().remove(j);
+                    j=j-1;
                 }
             }
         }return "Deleted";
-    }       /** Not finished */
+    }
 
 
-    public String count(){
-        return "The number of families : " + getAllFamilies().size();
+    public int count(){
+        return getAllFamilies().size();
     }
 
     public Family getFamilyById(int index){
@@ -118,11 +117,7 @@ public class FamilyService {
         getAllFamilies().get(index).getPet().add(pet);
         return "New pet added";
     }
-
-
-
-
-    }
+}
 
 
 

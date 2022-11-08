@@ -1,11 +1,14 @@
 package hw9.model;
 
+import java.time.LocalDate;
 import java.util.Map;
 
 public abstract class Human {
+    LocalDate localDate = LocalDate.now();
     private String name;
     private String surname;
     private int dateOfBirth;
+    private int age;
     private int iq;
     private Family family;
     private Map<String,String> schedule;
@@ -45,6 +48,13 @@ public abstract class Human {
         this.iq = iq;
     }
 
+    public int getAge() {
+        return age = localDate.getYear() - dateOfBirth;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 
     public Map<String,String> getSchedule() {
         return schedule;

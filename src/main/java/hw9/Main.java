@@ -17,6 +17,7 @@ public class Main {
     public static void main(String[] args) {
         CollectionFamilyDao collectionFamilyDao = new CollectionFamilyDao();
         FamilyService familyService = new FamilyService(collectionFamilyDao);
+        FamilyController familyController = new FamilyController(familyService);
         Set<Pet> mypets = new HashSet<>();
         Man man = new Man("Azar","Ibrahimli",1998);
         Woman woman = new Woman("Nigar","Ibrahimli",2000);
@@ -32,8 +33,8 @@ public class Main {
         Set<Pet> mypets2 = new HashSet<>();
         Man man2 = new Man("Azar2","Ibrahimli");
         Woman woman2 = new Woman("Nigar2","Ibrahimli");
-        Man child = new Man("Odar","Ibrahimli",2);
-        Man child2 = new Man("Omar","Ibrahimli");
+        Man child = new Man("Odar","Ibrahimli",2005);
+        Man child2 = new Man("Omar","Ibrahimli",2009);
         Pet mypet2 = new RoboCat("RoboCat2");
         Pet myfish2 = new Fish("Fish2");
         mypets2.add(mypet2);
@@ -63,7 +64,7 @@ public class Main {
 //        System.out.println(familyService.createNewFamily(new Human("Leyla", "Aliyeva",2001), new Human("Mahammad","Aliyev",1999)));
 //        familyService.displayAllFamilies();
 //        familyService.deleteFamilyByIndex(1);
-        familyService.displayAllFamilies();
+//        familyService.displayAllFamilies();
 //        System.out.println(familyService.getAllFamilies());
 
 //        System.out.println("-------------------");
@@ -71,17 +72,24 @@ public class Main {
 //        familyService.displayAllFamilies();
 
 
-        Human adoptChild = new Woman("Niga","Aliyev");
+        Human adoptChild = new Woman("Niga","Aliyev",1999);
         familyService.adoptChild(family,adoptChild);
-        familyService.displayAllFamilies();
+//        familyService.displayAllFamilies();
 
-        System.out.println(familyService.count());
-
-        System.out.println(familyService.getFamilyById(0));
-
+//        System.out.println(familyService.count());
+//
+//        System.out.println(familyService.getFamilyById(0));
+//
         System.out.println(familyService.getPets(0));
         System.out.println(familyService.addPet(0,new DomesticCat("Leo")));
         System.out.println(familyService.getPets(0));
+//        System.out.println("\n");
 
+//        System.out.println(familyService.getAllFamilies().get(0).getChildren());
+//        System.out.println(familyService.getAllFamilies().get(1).getChildren());
+//        System.out.println("\n");
+//        System.out.println(familyService.deleteAllChildrenOlderThan(20));
+//        System.out.println(familyService.getAllFamilies().get(0).getChildren());
+//        System.out.println(familyService.getAllFamilies().get(1).getChildren());
         }
     }
