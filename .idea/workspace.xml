@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eb006869-431e-4773-b23e-0bcc662be17e" name="Changes" comment="Almost finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw9/FamilyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw9/FamilyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw9/FamilyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw9/FamilyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw9/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw9/model/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw9/model/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw9/test/TestFamilyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw9/test/TestFamilyService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/azari/IdeaProjects/Homeworks/src/main/java/homework9"
+    "last_opened_file_path": "C:/Users/azari/IdeaProjects/Homeworks/src"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -165,7 +160,7 @@
       <workItem from="1667719476485" duration="1009000" />
       <workItem from="1667730520716" duration="20431000" />
       <workItem from="1667845240486" duration="6128000" />
-      <workItem from="1667893614696" duration="22190000" />
+      <workItem from="1667893614696" duration="23511000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1667333466584</created>
@@ -258,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667918404386</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Almost finished">
+      <created>1667918585779</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667918585779</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
