@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb006869-431e-4773-b23e-0bcc662be17e" name="Changes" comment="Almost finished">
+    <list default="true" id="eb006869-431e-4773-b23e-0bcc662be17e" name="Changes" comment="Structured">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/animals/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/animals/DomesticCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/animals/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/animals/RoboCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/enums/DayOfWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/enums/Species.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/gender/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/gender/Woman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/interfaces/Foul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/model/Family.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/model/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/model/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/pattern/collection/CollectionFamilyDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/pattern/controller/FamilyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/pattern/dao/FamilyDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/pattern/service/FamilyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/test/TestFamilyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/test/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/test/testCollectionFamilyDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,31 +53,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/azari/IdeaProjects/Homeworks/src&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/azari/IdeaProjects/HappyFamily"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main\java" />
+      <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main\java\hw10" />
       <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main\java\hw9" />
       <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main\java\hw8" />
       <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main\java\hw7" />
-      <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main\java" />
-      <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main\java\hw6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestFamilyService">
+  <component name="RunManager" selected="Application.hw10.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hw9.Main" />
       <module name="HappyFamily" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hw9.pattern.dao.controller.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hw10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw10.Main" />
+      <module name="HappyFamily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,29 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFamilyService.deleteAllChildOlderThan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HappyFamily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw9.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hw9.test" />
-      <option name="MAIN_CLASS_NAME" value="hw9.test.TestFamilyService" />
-      <option name="METHOD_NAME" value="deleteAllChildOlderThan" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.hw10.Main" />
         <item itemvalue="JUnit.TestFamilyService" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestFamilyService.addPet" />
         <item itemvalue="JUnit.TestFamilyService.count" />
-        <item itemvalue="JUnit.TestFamilyService.deleteAllChildOlderThan" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +178,9 @@
       <workItem from="1667730520716" duration="20431000" />
       <workItem from="1667845240486" duration="6128000" />
       <workItem from="1667893614696" duration="23511000" />
+      <workItem from="1667921122996" duration="456000" />
+      <workItem from="1668153117390" duration="8277000" />
+      <workItem from="1668280456411" duration="5695000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1667333466584</created>
@@ -260,7 +280,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667918585779</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Almost finished">
+      <created>1667921140118</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667921140118</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Structured">
+      <created>1667921360349</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667921360349</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +316,8 @@
     <MESSAGE value="Begining" />
     <MESSAGE value="Initial" />
     <MESSAGE value="Almost finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost finished" />
+    <MESSAGE value="Structured" />
+    <option name="LAST_COMMIT_MESSAGE" value="Structured" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
