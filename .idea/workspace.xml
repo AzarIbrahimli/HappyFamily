@@ -4,27 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb006869-431e-4773-b23e-0bcc662be17e" name="Changes" comment="Structured">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/animals/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/animals/DomesticCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/animals/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/animals/RoboCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/enums/DayOfWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/enums/Species.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/gender/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/gender/Woman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/interfaces/Foul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/model/Family.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/model/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/model/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/pattern/collection/CollectionFamilyDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/pattern/controller/FamilyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/pattern/dao/FamilyDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/pattern/service/FamilyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/test/TestFamilyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/test/Tester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/test/testCollectionFamilyDao.java" afterDir="false" />
+    <list default="true" id="eb006869-431e-4773-b23e-0bcc662be17e" name="Changes" comment="Almost Finished">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/animals/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/animals/DomesticCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/animals/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/animals/RoboCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/enums/DayOfWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/enums/Species.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/gender/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/gender/Woman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/interfaces/Foul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/model/Family.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/model/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/pattern/collection/CollectionFamilyDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/pattern/controller/FamilyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/pattern/dao/FamilyDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/pattern/service/FamilyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/test/TestFamilyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/test/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/test/testCollectionFamilyDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,25 +58,28 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/azari/IdeaProjects/HappyFamily"
+    "last_opened_file_path": "C:/Users/azari/IdeaProjects/Homeworks/src",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main\java\hw12" />
       <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main\java" />
+      <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main" />
+      <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main\java\hw11b" />
       <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main\java\hw10" />
-      <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main\java\hw9" />
-      <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main\java\hw8" />
-      <recent name="C:\Users\azari\IdeaProjects\HappyFamily\src\main\java\hw7" />
     </key>
   </component>
   <component name="RunManager" selected="Application.hw10.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw9.Main" />
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw12.app.Launcher" />
       <module name="HappyFamily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw9.pattern.dao.controller.dao.*" />
+          <option name="PATTERN" value="hw12.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,49 +100,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFamilyService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="hw12.app.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw12.app.Main" />
       <module name="HappyFamily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw9.test.*" />
+          <option name="PATTERN" value="hw12.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hw9.test" />
-      <option name="MAIN_CLASS_NAME" value="hw9.test.TestFamilyService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFamilyService.countFamiliesWithMemberNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HappyFamily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw11.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw11.test" />
+      <option name="MAIN_CLASS_NAME" value="hw11.test.TestFamilyService" />
+      <option name="METHOD_NAME" value="countFamiliesWithMemberNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testCollectionFamilyDao (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HappyFamily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw11.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw11.test" />
+      <option name="MAIN_CLASS_NAME" value="hw11.test.testCollectionFamilyDao" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFamilyService.addPet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HappyFamily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw9.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hw9.test" />
-      <option name="MAIN_CLASS_NAME" value="hw9.test.TestFamilyService" />
-      <option name="METHOD_NAME" value="addPet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFamilyService.count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HappyFamily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw9.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hw9.test" />
-      <option name="MAIN_CLASS_NAME" value="hw9.test.TestFamilyService" />
-      <option name="METHOD_NAME" value="count" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,10 +147,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.hw10.Main" />
-        <item itemvalue="JUnit.TestFamilyService" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TestFamilyService.addPet" />
-        <item itemvalue="JUnit.TestFamilyService.count" />
+        <item itemvalue="Application.Launcher" />
+        <item itemvalue="Application.hw12.app.Main" />
+        <item itemvalue="JUnit.testCollectionFamilyDao (1)" />
+        <item itemvalue="JUnit.TestFamilyService.countFamiliesWithMemberNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +179,14 @@
       <workItem from="1667893614696" duration="23511000" />
       <workItem from="1667921122996" duration="456000" />
       <workItem from="1668153117390" duration="8277000" />
-      <workItem from="1668280456411" duration="5695000" />
+      <workItem from="1668280456411" duration="5996000" />
+      <workItem from="1668315917205" duration="11723000" />
+      <workItem from="1668352620895" duration="6820000" />
+      <workItem from="1668674500691" duration="777000" />
+      <workItem from="1668682129387" duration="1677000" />
+      <workItem from="1668776351687" duration="249000" />
+      <workItem from="1668783101391" duration="3329000" />
+      <workItem from="1668920906163" duration="17106000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1667333466584</created>
@@ -294,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667921360349</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Almost Finished">
+      <created>1668286600597</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668286600597</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +330,8 @@
     <MESSAGE value="Initial" />
     <MESSAGE value="Almost finished" />
     <MESSAGE value="Structured" />
-    <option name="LAST_COMMIT_MESSAGE" value="Structured" />
+    <MESSAGE value="Almost Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost Finished" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

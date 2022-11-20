@@ -1,15 +1,14 @@
-package hw10;
-import hw10.animals.DomesticCat;
-import hw10.animals.Fish;
-import hw10.animals.RoboCat;
-import hw10.gender.Man;
-import hw10.gender.Woman;
-import hw10.model.Family;
-import hw10.model.Human;
-import hw10.model.Pet;
-import hw10.pattern.collection.CollectionFamilyDao;
-import hw10.pattern.controller.FamilyController;
-import hw10.pattern.service.FamilyService;
+package hw11;
+import hw11.animals.Fish;
+import hw11.animals.RoboCat;
+import hw11.gender.Man;
+import hw11.gender.Woman;
+import hw11.model.Family;
+import hw11.model.Human;
+import hw11.model.Pet;
+import hw11.pattern.collection.CollectionFamilyDao;
+import hw11.pattern.controller.FamilyController;
+import hw11.pattern.service.FamilyService;
 import java.text.ParseException;
 import java.util.HashSet;
 import java.util.Set;
@@ -20,8 +19,8 @@ public class Main {
         FamilyService familyService = new FamilyService(collectionFamilyDao);
         FamilyController familyController = new FamilyController(familyService);
         Set<Pet> mypets = new HashSet<>();
-        Man man = new Man("Azar","Ibrahimli","27/07/1998");
-        Woman woman = new Woman("Nigar","Ibrahimli","27/07/2000");
+        Human man = new Man("Azar","Ibrahimli","27/07/1998");
+        Human woman = new Woman("Nigar","Ibrahimli","27/07/2000");
         Pet mypet = new RoboCat("RoboCat");
         Pet myfish = new Fish("Fish");
 
@@ -74,17 +73,17 @@ public class Main {
 //        familyService.displayAllFamilies();
 
 
-        Human adoptChild = new Woman("Niga","Aliyev","27/07/1999");
-        familyService.adoptChild(family,adoptChild);
-        familyService.displayAllFamilies();
+//        Human adoptChild = new Woman("Niga","Aliyev","27/07/1999");
+//        familyService.adoptChild(family,adoptChild);
+//        familyService.displayAllFamilies();
 
 //        System.out.println(familyService.count());
 //
 //        System.out.println(familyService.getFamilyById(0));
 //
-        System.out.println(familyService.getPets(0));
-        System.out.println(familyService.addPet(0,new DomesticCat("Leo")));
-        System.out.println(familyService.getPets(0));
+//        System.out.println(familyService.getPets(0));
+//        System.out.println(familyService.addPet(0,new DomesticCat("Leo")));
+//        System.out.println(familyService.getPets(0));
 //        System.out.println("\n");
 
 //        System.out.println(familyService.getAllFamilies().get(0).getChildren());
@@ -93,7 +92,13 @@ public class Main {
 //        System.out.println(familyService.deleteAllChildrenOlderThan(20));
 //        System.out.println(familyService.getAllFamilies().get(0).getChildren());
 //        System.out.println(familyService.getAllFamilies().get(1).getChildren());
-
+ //       familyService.displayAllFamilies();
+        System.out.println(family.countFamily());
+        System.out.println(family2.countFamily());
+        System.out.println(familyController.countFamiliesWithMemberNumber(1));//0
+        System.out.println(familyController.countFamiliesWithMemberNumber(2));//1
+        System.out.println(familyController.countFamiliesWithMemberNumber(3));//0
+        System.out.println(familyController.countFamiliesWithMemberNumber(4));//1
 
         }
     }
